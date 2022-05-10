@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'twin brown volcano enhance person success riot laundry scorpion pledge random receive',
+  'private_key',
   'https://rinkeby.infura.io/v3/c6138a5b459049e692f1d5c67950de71'
 );
 const web3 = new Web3(provider);
